@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet" />
+    <!-- font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- my link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>Service Page ₹</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_container main flex">
+            <div class="header_left flex">
+                <div class="logopart">
+                    <a href="./index.html"><img src="./imgs/logo-white-barber.png" alt="" class="logoimg" /></a>
+                </div>
+                <button class="toggler"><i class="fa-solid fa-bars" onclick="changeIcon(this)"></i></button>
+            </div>
+
+            <div class="header_right">
+                <nav class="navmenu pc">
+                    <ul class="navlist flex">
+                        <li class="navitmes"><a href="./index.html" class="navlink">HOME</a></li>
+                        <li class="navitmes"><a href="./service.html" class="navlink">SERVICE</a></li>
+                        <li class="navitmes"><a href="./blog.html" class="navlink">BLOG</a></li>
+                        <li class="navitmes"><a href="./contact.html" class="navlink">CONTACT US</a></li>
+                        <li class="navitmes"><a href="./bookonline.html" class="navlink btn">BOOK ONLINE</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="navmenu phone slider_text animate__animated animate__fadeInRight">
+                    <ul class="navlist">
+                        <li class="navitmes"><a href="./index.html" class="navlink">HOME</a></li>
+                        <li class="navitmes"><a href="./service.html" class="navlink">SERVICE</a></li>
+                        <li class="navitmes"><a href="./blog.html" class="navlink">BLOG</a></li>
+                        <li class="navitmes"><a href="./contact.html" class="navlink">CONTACT US</a></li>
+                        <li class="navitmes"><a href="./bookonline.html." class="navlink btn">BOOK ONLINE</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- banner -->
+    <section class="banner">
+        <div class="slider service_banner">
+            <img src="./imgs/pexels-thgusstavo-1813272.jpg" alt="" class="serviceimg">
+            <div class="slider_text">
+                <h1>Hair Services</h1>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- our service -->
+    <section class="our_service">
+        <div class="our_container main">
+
+            <div class="section_top">
+                <p class="higlight">YOUR HAIR, YOUR STYLE</p>
+                <h2 class="section_heading">Our Services & Prices</h2>
+            </div>
+
+            <div class="parice_box flex"> <!--pricebox_start-->
+
+                <div class="left_box"  data-aos="fade-up-right"> <!--left_start-->
+
+                    <div class="pricing">
+                        <h3>Cutting & Styling</h3>
+                    </div>
+
+                    <ul class="pricing_list">
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Women's Haircut</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹350 - ₹950</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Men's Haircut</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹250 - ₹550</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Blow Dry</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹580 - ₹1570</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Updo/Style</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹550 - ₹1580</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Child’s Haircut</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹250 - ₹655</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+
+                    <div class="pricing">
+                        <h3>Hair Coloring</h3>
+                    </div>
+
+                    <ul class="pricing_list">
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Single Process</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹2800 - ₹5060</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Double Process</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹850 - ₹3500</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Full Head Highlights</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹1508 - 3500</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Half Head Highlights</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹250 - ₹1580</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Balayage</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>350 - ₹2585</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Color Refresh</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹500 - 1500</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div> <!--left_end-->
+
+                <div class="right_box"  data-aos="fade-up-left"> <!--right_start-->
+                    <div class="pricing">
+                        <h3>Hair Treatments</h3>
+                    </div>
+
+                    <ul class="pricing_list">
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Brazilian Blow Out</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹1450 - ₹2550</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Keratin Complex Express</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹3550</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Keratin Complex</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹2800 - ₹4020</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Permanent Wave</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹1560 - ₹4580</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Hair Gloss</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹600 - ₹1285</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Safe Color Treatment</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹555 - ₹2185</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Hair & Scalp Treatments</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹2575 - ₹4185</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+
+                    <div class="pricing">
+                        <h3>Hair Extensions</h3>
+                    </div>
+
+                    <ul class="pricing_list">
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Blowdry with Extensions</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹200 - ₹500</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Extensions Service
+
+                                    </p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹150 - ₹350</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Keratin Hair Extensions</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹68 - ₹170</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="pricing_item">
+                            <div class="detail_price">
+                                <div class="price_name">
+                                    <p>Hair Extension Removal</p>
+                                </div>
+                                <div class="price_dots"></div>
+                                <div class="price_number">
+                                    <p>₹250 - ₹1580</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div> <!--right_end-->
+
+            </div> <!-- price_end -->
+
+
+            <div class="our_button">
+                <a class="btn btn2" href="">BOOK ONLINE</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- discount -->
+    <section class="off">
+        <div class="discount_contant main">
+            <img src="./imgs/banner-1-hair.jpg" alt="" class="colorimg">
+            <div class="discount_text">
+                <p>THIS WEEK ONLY</p>
+                <h1>Get <span class="big">30% OFF</span></h1>
+                <h2>Custom Color Service</h2>
+                <a class="btn btn2" href="">BOOK AN APPOINTMENT</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- fooetr -->
+    <footer>
+        <div class="main">
+            <div class="socialMedia_icon ">
+                <a href=""><i class="fa-brands fa-facebook"></i> </a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+
+
+            <div class="nav flex">
+                <a class="footer_navlink" href="./index.html">HOME</a>
+                <a class="footer_navlink" href="./service.html">SERVICE</a>
+                <a class="footer_navlink" href="./blog.html">BLOG</a>
+                <a class="footer_navlink" href="./contact.html">CONTACT US</a>
+            </div>
+
+            <div>
+                <p>© 2024 Reine. All Rights Reserved</p>
+            </div>
+        </div>
+
+    </footer>
+    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/navmenu.js"></script>
+</body>
+
+</html>

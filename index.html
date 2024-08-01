@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- my link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>BARBER SHOP</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_container main flex">
+            <div class="header_left flex">
+                <div class="logopart">
+                    <a href="./index.html"><img src="./imgs/logo-white-barber.png" alt="" class="logoimg" /></a>
+                </div>
+                <button class="toggler"><i class="fa-solid fa-bars" onclick="changeIcon(this)"></i></button>
+            </div>
+
+            <div class="header_right">
+                <nav class="navmenu pc">
+                    <ul class="navlist flex">
+                        <li class="navitmes"><a href="./index.html" class="navlink">HOME</a></li>
+                        <li class="navitmes"><a href="./service.html" class="navlink">SERVICE</a></li>
+                        <li class="navitmes"><a href="./blog.html" class="navlink">BLOG</a></li>
+                        <li class="navitmes"><a href="./contact.html" class="navlink">CONTACT US</a></li>
+                        <li class="navitmes"><a href="./bookonline.html" class="navlink btn">BOOK ONLINE</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="navmenu phone slider_text animate__animated animate__fadeInRight">
+                    <ul class="navlist">
+                        <li class="navitmes"><a href="./index.html" class="navlink">HOME</a></li>
+                        <li class="navitmes"><a href="./service.html" class="navlink">SERVICE</a></li>
+                        <li class="navitmes"><a href="./blog.html" class="navlink">BLOG</a></li>
+                        <li class="navitmes"><a href="./contact.html" class="navlink">CONTACT US</a></li>
+                        <li class="navitmes"><a href="./bookonline.html" class="navlink btn">BOOK ONLINE</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- banner -->
+    <section class="banner">
+        <div class="slider" id="slide1">
+            <img src="./imgs/slide-18.jpg" alt="" class="sliderimg" />
+            <div class="slider_text animate__animated animate__fadeInUp">
+                <h4>INDULGE YOURSELF</h4>
+                <h1>
+                    Making Your Look <br />
+                    Awesome And Manly
+                </h1>
+                <a class="btn" href="">DISCOVER MORE</a>
+            </div>
+        </div>
+        <div class="slider" id="slide2">
+            <img src="./imgs/slide-19.jpg" alt="" class="sliderimg" />
+            <div class="slider_text animate__animated animate__fadeInUp">
+                <h4>DECLARE YOUR STYLE</h4>
+                <h1>
+                    Feel Free To Express And <br />
+                    Choose Your Style
+                </h1>
+                <a class="btn" href="">VIEW SALON MENU</a>
+            </div>
+        </div>
+        <div class="slider" id="slide3">
+            <img src="./imgs/slide-20.jpg" alt="" class="sliderimg" />
+            <div class="slider_text animate__animated animate__fadeInUp">
+                <h4>SHEAR. SHAVE. SHINE</h4>
+                <h1>
+                    Traditional Service In A <br />
+                    Modern Manner
+                </h1>
+                <a class="btn" href="">ONLINE BOOKING</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- declare -->
+    <section class="declare">
+        <div class="declare_container main flex">
+            <div class="text_part" data-aos="fade-left">
+                <p class="higlight">DECLARE YOUR STYLE</p>
+                <h2 class="section_heading">Empower your look.<br>
+                    Elevate your game</h2>
+                <p class="para">Are you ready to elevate your hairstyle game to the next level? We've got just what
+                    Introducing our premium range of hair products, perfect for achieving the ultimate style that will
+                    turn heads wherever you go. Whether you're going for a classic look or want to experiment with
+                    something edgier, we've got you covered. Check out our incredible lineup.</p>
+            </div>
+
+            <div class="img_box">
+                <img src="./imgs/barber_011.png" alt="" data-aos="fade-right">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- your hair -->
+    <section class="your hair">
+        <div class="sytle_container main">
+            <div class="section_top">
+                <p class="higlight">YOUR HAIR, YOUR STYLE</p>
+                <h2 class="section_heading">Services for progressive or <br>
+                    traditional gentlemen</h2>
+            </div>
+            <div class="style_content flex">
+
+                <div class="imgBox"><img src="./imgs/barber_2.jpg" alt="" class="servisimg"></div>
+
+                <div class="imgBox box2">
+                    <div class="box2_text">
+                        <h4>Don’t be ordinary, be <br> extraordinary</h4>
+                        <p>Sagittis congue augue an egestas integer velna purus purus magna libero suscipit and egestas
+                            magna undo aliquam ipsum purus</p>
+                    </div>
+                    <img src="./imgs/barber_3.jpg" alt="" class="servisimg">
+                </div>
+
+                <div class="imgBox box3"><img src="./imgs/barber_4.jpg" alt="" class="servisimg"></div>
+
+                <div class="showBox">
+                    <img src="./imgs/barber_2.jpg" alt="" class="servisimg">
+                    <img src="./imgs/barber_4.jpg" alt="" class="servisimg">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Choose_opction -->
+    <section class="Choose_opction">
+        <div class="Choose_content main flex" data-aos="fade-up"
+        data-aos-duration="3000">
+            <div class="box1 ">
+                <img src="./imgs/style.png" alt="" class="styleimg">
+                <h5>Haircut</h5>
+                <p>Whether you are interested in updating your look or curious to learn more about men’s hairstyles, we
+                    dive into the most popular men's haircuts. Check out our
+                </p>
+            </div>
+            <div class="box1">
+                <img src="./imgs/flat-iron.png" alt="" class="styleimg">
+                <h5>Straightener</h5>
+                <p>Updating your look or curious to learn more about men’s hairstyles, we
+                    dive into the most popular men's haircuts. Check out our
+                </p>
+            </div>
+            <div class="box1">
+                <img src="./imgs/shaving-brush.png" alt="" class="styleimg">
+                <h5>Face Shave</h5>
+                <p>Interested in updating your look or curious to learn more about men’s hairstyles, we
+                    dive into the most popular men's haircuts. Check out our
+                </p>
+            </div>
+            <div class="box1">
+                <img src="./imgs/haircut.png" alt="" class="styleimg">
+                <h5>Hair Trim</h5>
+                <p>Whether you are interested in updating your look or curious to learn more about men’s hairstyles, we
+                    dive into the most popular men's haircuts. Check out our
+                </p>
+            </div>
+        </div>
+    </section>
+
+<!-- product -->
+    <section class="products">
+        <div class="swiper_container main">
+            <div class="section_top">
+                <p class="higlight">OUR ONLINE STORE</p>
+                <h2 class="section_heading">Barbershop products</h2>
+            </div>
+            <div class="swiper myswiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="swiper_img">
+                            <img src="imgs/product01.jpg" alt="" class="swipImg">
+                            <button>ADD TO CART</button>
+                        </div>
+                        <div class="product-name">
+                            <span>MOISTURIZERS</span>
+                            <p> Vegan Micellar Water</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper_img">
+                            <img src="imgs/product02.jpg" alt="" class="swipImg">
+                            <button>ADD TO CART</button>
+                        </div>
+                        <div class="product-name">
+                            <span>MOISTURIZERS</span>
+                            <p>Glitter Liquid Lipstick</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper_img">
+                            <img src="imgs/product03.jpg" alt="" class="swipImg">
+                            <button>ADD TO CART</button>
+                        </div>
+                        <div class="product-name">
+                            <span>MOISTURIZERS</span>
+                            <p>Coconut Oil Conditioner</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper_img">
+                            <img src="imgs/product04.jpg" alt="" class="swipImg">
+                            <button>ADD TO CART</button>
+                        </div>
+                        <div class="product-name">
+                            <span>SKINCARE</span>
+                            <p>Donoderm Moisture Gel</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper_img">
+                            <img src="imgs/product05.jpg" alt="" class="swipImg">
+                            <button>ADD TO CART</button>
+                        </div>
+                        <div class="product-name">
+                            <span>MOISTURIZERS</span>
+                            <p>Volume Mascara 13ml</p>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper_img">
+                            <img src="imgs/product06.jpg" alt="" class="swipImg">
+                            <button>ADD TO CART</button>
+                        </div>
+                        <div class="product-name">
+                            <span>SKINCARE</span>
+                            <p> Coconut Oil Shampoo</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper_img">
+                            <img src="imgs/product07.jpg" alt="" class="swipImg">
+                            <button>ADD TO CART</button>
+                        </div>
+                        <div class="product-name">
+                            <span>MOISTURIZERS</span>
+                            <p>Coverage Foundation</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper_img">
+                            <img src="imgs/product08.jpg" alt="" class="swipImg">
+                            <button>ADD TO CART</button>
+                        </div>
+                        <div class="product-name">
+                            <span>SKINCARE</span>
+                            <p>Hydrating Refining 40ml</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper_img">
+                            <img src="imgs/product09.jpg" alt="" class="swipImg">
+                            <button>ADD TO CART</button>
+                        </div>
+                        <div class="product-name">
+                            <spanpspan>SKINCARE</span>
+                                <p>Korean Silk 3D Lashes</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper_img">
+                            <img src="imgs/product10.jpg" alt="" class="swipImg">
+                            <button>ADD TO CART</button>
+                        </div>
+                        <div class="product-name">
+                            <span>MOISTURIZERS</span>
+                            <p>Rose Shower Gel</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- COME, RELAX AND ENJOY -->
+    <section class="relax_enjoy">
+        <div class="enjoy_container main flex">
+            <div class="enjoy_text_part">
+                <p class="title">COME, RELAX AND ENJOY</p>
+                <h2 class="section_heading">Place where you will <br>
+                    feel peaceful</h2>
+                <p class="para">Integer velna purus purus magna blandit suscipit egestas magna diam aliquam vitae
+                    purus justo lacus ligula ipsum congue tempor undo quisque fusce cursus neque</p>
+                <a class="btn btn2" href="">BOOK AN APPOINTMENT</a>
+            </div>
+
+            <div class="img_box">
+                <img src="./imgs/barber_5.jpg" alt="" class="enjoyimg">
+            </div>
+        </div>
+    </section>
+    <!-- transparent -->
+    <section class="trans"></section>
+
+    <!-- gallery -->
+    <section class="gallery">
+        <div class="gallery_container main">
+            <div class="section_top">
+                <p class="higlight">YOU’LL LIKE IT HERE!</p>
+                <h2 class="section_heading">Any Style. Any Length</h2>
+            </div>
+
+            <div class="gallery_content flex">
+                <div class="gallery_box flex" data-aos="zoom-in">
+                    <div class="gly_img_box">
+                        <img src="./imgs/barber_01 (1).jpg" alt="" class="gllimg">
+                        <button><i class="fa-solid fa-eye"></i></button>
+                    </div>
+
+                    <div class="gly_img_box">
+                        <img src="./imgs/barber_02.jpg" alt="" class="gllimg">
+                        <button><i class="fa-solid fa-eye"></i></button>
+                    </div>
+
+                    <div class="gly_img_box">
+                        <img src="./imgs/barber_03 (1).jpg" alt="" class="gllimg">
+                        <button><i class="fa-solid fa-eye"></i></button>
+                    </div>
+
+                    <div class="gly_img_box">
+                        <img src="./imgs/barber_04 (1).jpg" alt="" class="gllimg">
+                        <button><i class="fa-solid fa-eye"></i></button>
+                    </div>
+
+                    <div class="gly_img_box">
+                        <img src="./imgs/barber_05 (1).jpg" alt="" class="gllimg">
+                        <button><i class="fa-solid fa-eye"></i></button>
+                    </div>
+
+                    <div class="gly_img_box">
+                        <img src="./imgs/barber_06 (1).jpg" alt="" class="gllimg">
+                        <button><i class="fa-solid fa-eye"></i></button>
+                    </div>
+
+                    <div class="gly_img_box">
+                        <img src="./imgs/barber_07.jpg" alt="" class="gllimg">
+                        <button><i class="fa-solid fa-eye"></i></button>
+                    </div>
+                    
+                    <div class="gly_img_box">
+                        <img src="./imgs/barber_08.jpg" alt="" class="gllimg">
+                        <button><i class="fa-solid fa-eye"></i></button>
+                    </div>
+
+                </div>
+
+                <div class="img_popup">
+                    <span>&times;</span>
+                    <img src="./imgs/barber_01 (1).jpg" class="popupimg" alt="">
+                </div>
+
+                <a class="btn btn2" href="">VISIT OUR GALLERY</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- makchange -->
+    <section class="make_change">
+
+        <div class="change_container main flex">
+            <div class="text_part"  data-aos="fade-left">
+                <p class="higlight ">TRY DIFFERENT THINGS</p>
+                <h2 class="section_heading">Are you ready to make a<br>
+                    big change?</h2>
+                <p class="para para2">Ah what a good time to answer on Quora after a long long while. I haven’t been
+                    active and this question brings me excitement. I run a YouTube channel on hair and fashion so if you
+                    are interested you can comment below subscribe to support me.</p>
+
+                <p class="para"> Now where do I start? I am someone that likes many different hairstyles and it changes
+                    my look a lot. I will be showing some hair colours too
+                    nequedo quisque and fusce
+                    cursus neque blandit fusce aliquam nulla lacinia</p>
+            </div>
+
+            <div class="img_box">
+                <img src="./imgs/barber_02 (1).jpg" alt="" data-aos="fade-right">
+            </div>
+
+            <div class="bckgrundcolor"></div>
+
+        </div>
+    </section>
+
+    <!-- time -->
+    <section class="time_table">
+        <div class="table_container main flex">
+
+
+            <!-- TEXT -->
+            <div class="table_right">
+                <!-- Section ID -->
+                <span class="higlight">Time Schedule</span>
+
+                <!-- Title -->
+                <h2 class="section_heading">Working Hours</h2>
+
+                <!-- Text -->
+                <p class="para">People who work 7 days a week may find it challenging to make time for personal tasks
+                    like getting a haircut. However, there are several ways they could potentially manage to fit in a
+                    haircut.it is possible to fit self-care activities into a hectic work schedule.
+                </p>
+            </div>
+
+            <!-- TABLE -->
+            <table class="table_left">
+                <tbody>
+                    <tr>
+                        <td>Mon – Wed</td>
+                        <td> - </td>
+                        <td class="text-end">10:00 AM - 9:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td> - </td>
+                        <td class="text-end">10:00 AM - 7:30 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td> - </td>
+                        <td class="text-end">10:00 AM - 9:00 PM</td>
+                    </tr>
+                    <tr class="last-tr">
+                        <td>Sun - Sun</td>
+                        <td>-</td>
+                        <td class="text-end">10:00 AM - 5:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- END TABLE -->
+
+        </div> <!-- End container -->
+    </section>
+
+    <!-- fooetr -->
+    <footer>
+        <div class="main">
+            <div class="socialMedia_icon ">
+                <a href=""><i class="fa-brands fa-facebook"></i> </a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+
+
+            <div class="nav flex">
+                <a class="footer_navlink" href="./index.html">HOME</a>
+                <a class="footer_navlink" href="./service.html">SERVICE</a>
+                <a class="footer_navlink" href="./blog.html">BLOG</a>
+                <a class="footer_navlink" href="./contact.html">CONTACT US</a>
+            </div>
+
+            <div>
+                <p>© 2024 Reine. All Rights Reserved</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- aos -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <!-- my-js -->
+    <script src="/js/bannerslider.js"></script>
+    <script src="./js/navmenu.js"></script>
+</body>
+
+</html>

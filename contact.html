@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet" />
+    <!-- font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- my link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>Service Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_container main flex">
+            <div class="header_left flex">
+                <div class="logopart">
+                    <a href="./index.html"><img src="./imgs/logo-white-barber.png" alt="" class="logoimg" /></a>
+                </div>
+                <button class="toggler"><i class="fa-solid fa-bars" onclick="changeIcon(this)"></i></button>
+            </div>
+
+            <div class="header_right">
+                <nav class="navmenu pc">
+                    <ul class="navlist flex">
+                        <li class="navitmes"><a href="./index.html" class="navlink">HOME</a></li>
+                        <li class="navitmes"><a href="./service.html" class="navlink">SERVICE</a></li>
+                        <li class="navitmes"><a href="./blog.html" class="navlink">BLOG</a></li>
+                        <li class="navitmes"><a href="./contact.html" class="navlink">CONTACT US</a></li>
+                        <li class="navitmes"><a href="./bookonline.html" class="navlink btn">BOOK ONLINE</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="navmenu phone slider_text animate__animated animate__fadeInRight">
+                    <ul class="navlist">
+                        <li class="navitmes"><a href="./index.html" class="navlink">HOME</a></li>
+                        <li class="navitmes"><a href="./service.html" class="navlink">SERVICE</a></li>
+                        <li class="navitmes"><a href="./blog.html" class="navlink">BLOG</a></li>
+                        <li class="navitmes"><a href="./contact.html" class="navlink">CONTACT US</a></li>
+                        <li class="navitmes"><a href="./bookonline.html" class="navlink btn">BOOK ONLINE</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="map">
+        <div class="map_container main">
+            <div class="section_top">
+                <h2 class="section_heading">Let's Talk Beauty!</h2>
+                <p class="">Got Questions? Please, don't hesitate to get in touch with us</p>
+            </div>
+            <div class="mapdiv">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12608.219436228364!2d144.952569!3d-37.812184!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7e44d46ba61%3A0x3949726dfa4f88fa!2sEnvato%20Multi%20Technologies%20Limited!5e0!3m2!1sen!2sua!4v1716830436655!5m2!1sen!2sua"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact_massage">
+        <div class="contact_box main flex">
+
+            <div class="contact_detila">
+                <div class="location">
+                    <h3 class="contact_heading">Our Location:</h3>
+                    <p>8721 M Central Avenue,</p>
+                    <p>Los Angeles, CA 90036</p>
+
+                    <p class="bold">+12 9 8765 4321</p>
+                    <p class="bold">hello@yourdomain.com</p>
+                </div>
+
+                <div class="salon">
+                    <h3 class="contact_heading">Salon Hours:</h3>
+
+                    <p>Mon – Wed: <span>10:00AM - 9:00PM</span></p>
+                    <p>Thursday: <span>10:00AM - 7:30PM</span></p>
+                    <p>Friday: <span>10:00AM - 9:00PM</span></p>
+                    <p>Sun - Sun: <span>11:00AM - 5:00PM</span></p>
+                </div>
+
+            </div>
+
+            <div class="form">
+                <h3 class="contact_heading">Send a Message</h3>
+                <form>
+                    <div class="name_email flex">
+                        <div>
+                            <input type="text" placeholder="Your Name*" name="name" id="name">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Eamil Address*" name="email" id="email">
+                        </div>
+                    </div>
+                    <input type="text" placeholder="What's this about?" name="subject" id="subject">
+                    <textarea placeholder="Your Massage..." name="massage" id="massage"></textarea>
+                    <input type="submit" class="btn btn2" value="SEND MESSAGE">
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- fooetr -->
+    <footer>
+        <div class="main">
+            <div class="socialMedia_icon ">.
+                <a href=""><i class="fa-brands fa-facebook"></i> </a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+
+
+            <div class="nav flex">
+                <a class="footer_navlink" href="./index.html">HOME</a>
+                <a class="footer_navlink" href="./service.html">SERVICE</a>
+                <a class="footer_navlink" href="./blog.html">BLOG</a>
+                <a class="footer_navlink" href="./contact.html">CONTACT US</a>
+            </div>
+
+            <div>
+                <p>© 2024 Reine. All Rights Reserved</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/navmenu.js"></script>
+</body>
+
+</html>

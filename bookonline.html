@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet" />
+    <!-- font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- my link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>BARBER SHOP ₹</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_container main flex">
+            <div class="header_left flex">
+                <div class="logopart">
+                    <a href="./index.html"><img src="./imgs/logo-white-barber.png" alt="" class="logoimg" /></a>
+                </div>
+                <button class="toggler"><i class="fa-solid fa-bars" onclick="changeIcon(this)"></i></button>
+            </div>
+
+            <div class="header_right">
+                <nav class="navmenu pc">
+                    <ul class="navlist flex">
+                        <li class="navitmes"><a href="./index.html" class="navlink">HOME</a></li>
+                        <li class="navitmes"><a href="./service.html" class="navlink">SERVICE</a></li>
+                        <li class="navitmes"><a href="./blog.html" class="navlink">BLOG</a></li>
+                        <li class="navitmes"><a href="./contact.html" class="navlink">CONTACT US</a></li>
+                        <li class="navitmes"><a href="./bookonline.html" class="navlink btn">BOOK ONLINE</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="navmenu phone slider_text animate__animated animate__fadeInRight">
+                    <ul class="navlist">
+                        <li class="navitmes"><a href="./index.html" class="navlink">HOME</a></li>
+                        <li class="navitmes"><a href="./service.html" class="navlink">SERVICE</a></li>
+                        <li class="navitmes"><a href="./blog.html" class="navlink">BLOG</a></li>
+                        <li class="navitmes"><a href="./contact.html" class="navlink">CONTACT US</a></li>
+                        <li class="navitmes"><a href="./bookonline.html" class="navlink btn">BOOK ONLINE</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="book">
+        <div class="section_top">
+            <h2 class="section_heading">Book an Appointment</h2>
+            <p>Please fill out the appointment form below to make appointment</p>
+        </div>
+        <form class="online_book main">
+            <div class="form_container flex">
+                <div class="left_form">
+                    <input type="text" placeholder="First Name*" name="" id="">
+                    <input type="email" placeholder="Email Address*" name="email" id="">
+                    <select name="service" id="">
+                        <option selected="Hair Cut & Style">Select Service</option>
+                        <option value="Hair Cut & Style">Hair Cut & Style</option>
+                        <option value="Hair Cut & Style">Hair Cut & Style</option>
+
+                    </select>
+
+                </div>
+                <div class="right_form">
+                    <input type="text" placeholder="Last Nmae*" name="lastname" id="">
+                    <input type="number" placeholder="Number*" name="number" id="">
+                    <select name="service" id="">
+                        <option selected="Hair Cut & Style">Select Staff</option>
+                        <option value="Hair Cut & Style">Hair Cut & Style</option>
+                        <option value="Hair Cut & Style">Hair Cut & Style</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <input type="datetime" placeholder="Appointment Date*" name="date" id="date">
+            </div>
+
+        </form>
+    </section>
+    <!-- fooetr -->
+    <footer>
+        <div class="main">
+            <div class="socialMedia_icon ">
+                <a href=""><i class="fa-brands fa-facebook"></i> </a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+
+
+            <div class="nav flex">
+                <a class="footer_navlink" href="./index.html">HOME</a>
+                <a class="footer_navlink" href="./service.html">SERVICE</a>
+                <a class="footer_navlink" href="./blog.html">BLOG</a>
+                <a class="footer_navlink" href="./contact.html">CONTACT US</a>
+            </div>
+
+            <div>
+                <p>© 2024 Reine. All Rights Reserved</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/navmenu.js"></script>
+</body>
+
+</html>

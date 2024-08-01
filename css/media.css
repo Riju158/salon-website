@@ -1,0 +1,922 @@
+@media screen and (max-width: 1199px) {
+    .btn {
+        padding: 8px 20px;
+    }
+
+    /* --header-- */
+
+    .header_container {
+        padding: 20px 0;
+    }
+
+    .navlist {
+        gap: 30px;
+    }
+
+    .navlink {
+        font-size: 14px;
+    }
+
+    /* --banner-- */
+    .slider_text h4 {
+        letter-spacing: 10px;
+        font-size: 14px;
+    }
+
+    .slider_text h1 {
+        font-size: 50px;
+        margin: 2% 0;
+    }
+
+    /* ---declare---- */
+
+    .higlight {
+        font-size: 16px;
+        color: var(--highlight);
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .para {
+        font-size: 18px;
+        line-height: 1.2;
+
+    }
+
+    .section_heading {
+        font-size: 35px;
+        font-family: "Lora", serif;
+        font-weight: 500;
+        margin: 2% 0;
+    }
+
+
+    /* ------------your sytle------------- */
+    .style_content {
+        gap: 20px;
+        padding: 5% 0;
+        align-items: start;
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .box2_text {
+        text-align: center;
+        padding: 20px;
+        height: auto;
+    }
+
+    .box2 h4 {
+        font-size: 24px;
+        font-weight: 500;
+        font-family: "Lora", serif;
+        margin-bottom: 2%;
+    }
+
+    .box2 p {
+        font-size: 16px;
+        line-height: 1.5;
+
+    }
+
+
+    /* ------------our service------------ */
+
+    .parice_box {
+        gap: 30px;
+    }
+
+    .pricing h3 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .price_dots {
+        width: 30%;
+        border-bottom: 2px dotted black;
+    }
+
+    .price_number {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+
+
+/* ---------------blog-------------- */
+.date {
+    letter-spacing: 2px;
+    font-size:14px;
+    opacity: 0.7;
+}
+
+.img_heading {
+    font-size: 22px;
+    font-family: "lora";
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.img_para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .btn {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    /* --header-- */
+    .pc {
+        display: none;
+    }
+
+    .header_container {
+        padding: 12px 0;
+    }
+
+
+    .header_left {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .logopart {
+        width: 100px;
+    }
+
+    .phone {
+        position: absolute;
+        background-color: rgb(21, 21, 21);
+        padding: 20px 15px;
+        right: 0;
+        top: 60px;
+        min-width: 25%;
+    }
+
+    .phone .navlist {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .toggler {
+        display: block;
+        background: none;
+        outline: none;
+        color: white;
+        border: none;
+        font-size: 24px;
+    }
+
+    /* ---banner--- */
+    .slider_text h4 {
+        letter-spacing: 5px;
+        font-size: 14px;
+    }
+
+    .slider_text h1 {
+        font-size: 40px;
+        margin: 2% 0;
+    }
+
+
+    /* ---declare---- */
+
+    .higlight {
+        font-size: 12px;
+        color: var(--highlight);
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .para {
+        font-size: 15px;
+        line-height: 1.2;
+
+    }
+
+    .section_heading {
+        font-size: 30px;
+        margin: 2% 0;
+    }
+
+
+    /* ------------your sytle------------- */
+
+    .style_content {
+        gap: 20px;
+        padding: 5% 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .imgBox {
+        order: 5;
+        display: none;
+    }
+
+    .showBox {
+        order: 8;
+        display: block;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        width: 40%;
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        order: 1;
+        width: 82%;
+    }
+
+    .box2_text {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .box2 h4 {
+        font-size: 20px;
+        margin-bottom: 2%;
+    }
+
+    .box2 p {
+        font-size: 16px;
+        line-height: 1.2;
+
+    }
+
+    /* --------------Choose_opction------------ */
+
+    .Choose_content {
+        padding: 4% 0;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 30px;
+
+    }
+
+    .box1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex: 1;
+        gap: 15px;
+        overflow: hidden;
+    }
+
+    .box1 h5 {
+        color: var(--highlight);
+        font-size: 22px;
+    }
+
+    .styleimg {
+        width: 70px;
+        object-fit: cover;
+    }
+
+
+    /* ----transparent--- */
+    .trans {
+        height: 300px;
+        background: transparent !important;
+    }
+
+    /* --------------gallery--------------- */
+
+    .gallery_box {
+        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+
+    }
+
+
+
+    /* -----------------time_table----------- */
+    .table_container {
+        gap: 50px;
+    }
+
+    .table_left {
+        width: 50%;
+        height: 150px;
+    }
+
+    .table_right {
+        flex: 1;
+    }
+
+    .text-end {
+        text-align: end;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+    /* ------------our service------------ */
+
+    .parice_box {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .left_box {
+        width: 80%;
+    }
+
+    .right_box {
+        width: 80%;
+    }
+
+    .pricing h3 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .price_dots {
+        width: 40%;
+        border-bottom: 2px dotted black;
+    }
+
+    .price_number {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+
+    /* -------------------discount-------------- */
+    .discount_text h1 {
+        font-size: 70px;
+        font-weight: 500;
+    }
+
+    .discount_text .big {
+        font-weight: 800;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .discount_text h2 {
+        margin-bottom: 30px;
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    /* ------------------contact us---------------------- */
+    .contact_box {
+        margin-top: 5%;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contact_detila {
+        width: 80%;
+        gap: 50px;
+        flex-direction: row;
+    }
+
+    /* --------------blog------------- */
+
+    .blog_container {
+        gap: 30px;
+        margin-top: 5%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .left_main_box {
+        width: 80%;
+    }
+
+    .right_main_box {
+        width: 80%;
+        gap: 10px;
+    }
+
+    .date {
+        letter-spacing: 2px;
+        font-size:12px;
+        opacity: 0.7;
+    }
+    
+    .img_heading {
+        font-size: 20px;
+        font-family: "lora";
+        font-weight: 500;
+        margin: 20px 0;
+    }
+    
+    .img_para {
+        font-size:15px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    
+  
+}
+
+@media screen and (max-width: 767px) {
+    .btn {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    /* ---banner--- */
+    .slider_text h4 {
+        letter-spacing: 3px;
+        font-size: 12px;
+    }
+
+    .slider_text h1 {
+        font-size: 30px;
+        margin: 2% 0;
+    }
+
+
+    /* ---declare---- */
+    .declare_container {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .img_box {
+        width: 60%;
+    }
+
+
+    .text_part {
+        width: 90%;
+    }
+
+
+    .higlight {
+        font-size: 12px;
+        color: var(--highlight);
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .para {
+        font-size: 15px;
+        line-height: 1.2;
+
+    }
+
+    .section_heading {
+        font-size: 20px;
+        margin: 2% 0;
+    }
+
+
+
+
+    /* --------------- COME, RELAX AND ENJOY--------------- */
+
+    .enjoy_container {
+        flex-direction: column-reverse;
+        padding: 30px;
+        gap: 20px;
+    }
+
+    .enjoy_text_part {
+        color: white;
+        width: 100%;
+        padding-left: 0;
+        text-align: start;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .enjoy_text_part .para {
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .btn2 {
+        background-color: transparent;
+        border-color: white;
+    }
+
+    .btn2:hover {
+        background-color: var(--btncolour);
+        border-color: transparent;
+    }
+
+
+    /* ---------------macke-Change---------- */
+    .change_container {
+        position: relative;
+        gap: 50px;
+        padding: 30px;
+        flex-direction: column-reverse;
+    }
+
+    .change_container .text_part {
+        width: 100%;
+        z-index: 1;
+    }
+
+    .para2 {
+        margin-bottom: 20px;
+    }
+
+    .change_container .img_box {
+        flex: 1;
+        z-index: 1;
+    }
+
+    .bckgrundcolor {
+        position: absolute;
+        background-color: #f2f2f0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    /* -----------------time_table----------- */
+    .table_container {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .table_left {
+        width: 80%;
+        height: 150px;
+    }
+
+    .table_right {
+        flex: 1;
+        text-align: center;
+    }
+
+    .text-end {
+        text-align: end;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    /* ------------our service------------ */
+
+    .parice_box {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .left_box {
+        width: 80%;
+    }
+
+    .right_box {
+        width: 80%;
+    }
+
+    .pricing h3 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .price_dots {
+        width: 30%;
+        border-bottom: 2px dotted black;
+    }
+
+    .price_number {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+
+
+    /* -------------------discount-------------- */
+    .discount_text h1 {
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .discount_text .big {
+        font-weight: 800;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .discount_text h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+
+    /* ------------------contact us---------------------- */
+    .contact_box {
+        margin-top: 5%;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contact_detila {
+        width: 80%;
+        gap: 50px;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+
+    .contact_heading {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 575px) {
+    .btn {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+
+    .logopart {
+        width: 80px;
+    }
+
+    .phone {
+        right: 0;
+        top: 40px;
+    }
+
+    /* ---banner--- */
+    .slider_text h4 {
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+
+    .slider_text h1 {
+        font-size: 25px;
+        margin: 2% 0;
+    }
+
+    /* ---declare---- */
+
+    .higlight {
+        font-size: 12px;
+        color: var(--highlight);
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .para {
+        font-size: 13px;
+        line-height: 1.2;
+
+    }
+
+    .section_heading {
+        font-size: 20px;
+        margin: 2% 0;
+    }
+
+    /* --------------Choose_opction------------ */
+
+    .Choose_content {
+        padding: 5% 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+
+    }
+
+    .box1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex: 1;
+        gap: 15px;
+        overflow: hidden;
+    }
+
+    .box1 h5 {
+        color: var(--highlight);
+        font-size: 20px;
+    }
+
+    .styleimg {
+        width: 70px;
+        object-fit: cover;
+    }
+
+
+
+    /* ------------footer----------- */
+
+    footer {
+        height: 350px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    footer .main {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .socialMedia_icon i {
+        color: rgb(78, 77, 77);
+        font-size: 24px;
+        margin-right: 30px;
+    }
+
+    .nav {
+        justify-content: center;
+        gap: 30px;
+        margin: 30px 0;
+    }
+
+    .footer_navlink {
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+
+
+
+
+    /* ------------our service------------ */
+
+
+    .left_box {
+        width: 80%;
+    }
+
+    .right_box {
+        width: 80%;
+    }
+
+    .detail_price {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .pricing h3 {
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .price_dots {
+        width: 30%;
+        border-bottom: 2px dotted black;
+        display: none;
+    }
+
+    .price_number {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+
+
+    /* -------------------discount-------------- */
+    .discount_text p {
+        font-size: 10px;
+    }
+
+    .discount_text h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .discount_text .big {
+        font-weight: 800;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .discount_text h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+
+    /* ------------------contact us---------------------- */
+    .contact_box {
+        margin-top: 5%;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contact_detila {
+        width: 80%;
+        gap: 50px;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+
+    .contact_heading {
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+
+    .contact_detila p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .name_email {
+        flex-direction: column;
+        gap: 0;
+    }
+
+
+    .name_email>div {
+        width: 100%;
+
+    }
+
+    ::placeholder {
+        font-size: 16px;
+        font-family: system-ui;
+    }
+
+}
+
+
+@media screen and (max-width:450px) {
+    .banner .btn {
+        padding: 5px 15px;
+        font-size: 8px;
+    }
+
+
+    /* ---banner--- */
+    .slider_text h4 {
+        letter-spacing: 3px;
+        font-size: 8px;
+    }
+
+    .slider_text h1 {
+        font-size: 18px;
+        margin: 2% 0;
+    }
+
+
+
+
+    /* -------------------discount-------------- */
+
+    .discount_text h1 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .discount_text .big {
+        font-weight: 800;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .discount_text h2 {
+        margin-bottom: 8px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+
+}
